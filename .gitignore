@@ -1,0 +1,22 @@
+# Исключаем веса и временные файлы
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.pkl
+*.log
+*.sqlite3
+
+# Исключаем LoRA-выход и чекпоинты
+vikhr_nemo_12B_lora_out/
+checkpoints/
+*.ipynb_checkpoints/
+
+# Исключаем кэш/окружения
+__pycache__/
+.conda/
+.qodo/
+.venv/
+.env
+*.pyc
+.DS_Store

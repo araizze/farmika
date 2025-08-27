@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+transformers
+torch
+accelerate
+bitsandbytes
+peft
+easyocr
+
+
+
